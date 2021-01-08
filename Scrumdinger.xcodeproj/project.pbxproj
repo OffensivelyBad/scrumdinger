@@ -13,6 +13,7 @@
 		298C092625918AB80062C894 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298C092525918AB80062C894 /* MeetingView.swift */; };
 		298C092825918AB80062C894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298C092725918AB80062C894 /* Assets.xcassets */; };
 		298C092B25918AB80062C894 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298C092A25918AB80062C894 /* Preview Assets.xcassets */; };
+		29D8FFD625A8B40B00DE51B3 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8FFD525A8B40B00DE51B3 /* EditView.swift */; };
 		29FB525125A3BBB40040F47A /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FB525025A3BBB40040F47A /* DailyScrum.swift */; };
 		29FB525625A3BCDA0040F47A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FB525525A3BCDA0040F47A /* CardView.swift */; };
 		29FB525925A3BF5F0040F47A /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FB525825A3BF5F0040F47A /* Color+Codable.swift */; };
@@ -27,6 +28,7 @@
 		298C092725918AB80062C894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		298C092A25918AB80062C894 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		298C092C25918AB80062C894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D8FFD525A8B40B00DE51B3 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		29FB525025A3BBB40040F47A /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		29FB525525A3BCDA0040F47A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		29FB525825A3BF5F0040F47A /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				29FB525325A3BBCE0040F47A /* Models */,
 				29FB525525A3BCDA0040F47A /* CardView.swift */,
 				2976DD6725A7B7290024CA6A /* DetailView.swift */,
+				29D8FFD525A8B40B00DE51B3 /* EditView.swift */,
 				298C092525918AB80062C894 /* MeetingView.swift */,
 				2980E8A025A4B7E800FA48DC /* ScrumsView.swift */,
 				298C092725918AB80062C894 /* Assets.xcassets */,
@@ -163,6 +166,7 @@
 			files = (
 				298C092625918AB80062C894 /* MeetingView.swift in Sources */,
 				2980E8A125A4B7E800FA48DC /* ScrumsView.swift in Sources */,
+				29D8FFD625A8B40B00DE51B3 /* EditView.swift in Sources */,
 				29FB525125A3BBB40040F47A /* DailyScrum.swift in Sources */,
 				2976DD6825A7B7290024CA6A /* DetailView.swift in Sources */,
 				29FB525625A3BCDA0040F47A /* CardView.swift in Sources */,

@@ -32,3 +32,16 @@ extension DailyScrum {
         ]
     }
 }
+
+extension DailyScrum {
+    struct Data {
+        var title: String = ""
+        var attendees: [String] = []
+        var lengthInMinutes: Double = 5.0
+        var color: Color = .random
+    }
+    
+    var data: Data {
+        return Data(title: self.title, attendees: self.attendees, lengthInMinutes: Double(self.lengthInMinutes), color: self.color)
+    }
+}
