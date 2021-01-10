@@ -44,4 +44,11 @@ extension DailyScrum {
     var data: Data {
         return Data(title: self.title, attendees: self.attendees, lengthInMinutes: Double(self.lengthInMinutes), color: self.color)
     }
+    
+    mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        color = data.color
+    }
 }
