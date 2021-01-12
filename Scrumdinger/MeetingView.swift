@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct MeetingView: View {
+    @Binding var scrum: DailyScrum
     var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 16.0)
+                .fill(scrum.color)
         VStack {
             VStack {
                 ProgressView(value: 5, total: 15)
@@ -39,13 +43,15 @@ struct MeetingView: View {
                     .accessibilityLabel(Text("Next speaker"))
                 }
             }
-            .padding()
         }
+    }
+        .padding()
+        .foregroundColor(scrum.color.accessibleFontColor)
     }
 }
 
 struct MeetingView_Previews: PreviewProvider {
     static var previews: some View {
-        MeetingView()
+        MeetingView(scrum: .constant(DailyScrum.data[0]))
     }
 }
