@@ -41,7 +41,6 @@ struct MeetingHeaderView: View {
                     Text("\(secondsRemaining)")
                     Image(systemName: "hourglass.tophalf.fill")
                 }
-                Label("\(secondsRemaining)", systemImage: "hourglass.tophalf.fill")
             }
         }
         }
