@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2903845725B9E7E10083AA20 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903845625B9E7E10083AA20 /* History.swift */; };
 		296AC62525B250E5001F8C9D /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296AC62425B250E5001F8C9D /* MeetingHeaderView.swift */; };
 		2976AB3525B48D8F00C38222 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976AB3425B48D8F00C38222 /* ScrumProgressViewStyle.swift */; };
 		2976AB3925B48E5E00C38222 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2976AB3825B48E5E00C38222 /* ding.wav */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2903845625B9E7E10083AA20 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		296AC62425B250E5001F8C9D /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		2976AB3425B48D8F00C38222 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		2976AB3825B48E5E00C38222 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				29FB525025A3BBB40040F47A /* DailyScrum.swift */,
 				2976AB3B25B48E8200C38222 /* ScrumTimer.swift */,
 				2976AB3E25B5DA1E00C38222 /* AVPlayer+Ding.swift */,
+				2903845625B9E7E10083AA20 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			files = (
 				298C092625918AB80062C894 /* MeetingView.swift in Sources */,
 				2980E8A125A4B7E800FA48DC /* ScrumsView.swift in Sources */,
+				2903845725B9E7E10083AA20 /* History.swift in Sources */,
 				29D8FFD625A8B40B00DE51B3 /* EditView.swift in Sources */,
 				296AC62525B250E5001F8C9D /* MeetingHeaderView.swift in Sources */,
 				2976AB4225B5DB8F00C38222 /* MeetingFooterView.swift in Sources */,
