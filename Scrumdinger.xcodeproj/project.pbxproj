@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2903845725B9E7E10083AA20 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2903845625B9E7E10083AA20 /* History.swift */; };
+		2925450825BF43D5004F9FC8 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925450725BF43D5004F9FC8 /* HistoryView.swift */; };
 		2954C59F25BCC045007AE923 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954C59E25BCC045007AE923 /* MeetingTimerView.swift */; };
 		295EA0C425BB69EB00CD3753 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EA0C325BB69EB00CD3753 /* Color+Codable.swift */; };
 		295EA0C725BB6A9D00CD3753 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295EA0C625BB6A9D00CD3753 /* ScrumData.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		2903845625B9E7E10083AA20 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		2925450725BF43D5004F9FC8 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		2954C59E25BCC045007AE923 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		295EA0C325BB69EB00CD3753 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		295EA0C625BB6A9D00CD3753 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				298C092925918AB80062C894 /* Preview Content */,
 				2976AB3425B48D8F00C38222 /* ScrumProgressViewStyle.swift */,
 				2976AB4125B5DB8F00C38222 /* MeetingFooterView.swift */,
+				2925450725BF43D5004F9FC8 /* HistoryView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				29D8FFD625A8B40B00DE51B3 /* EditView.swift in Sources */,
 				296AC62525B250E5001F8C9D /* MeetingHeaderView.swift in Sources */,
 				2976AB4225B5DB8F00C38222 /* MeetingFooterView.swift in Sources */,
+				2925450825BF43D5004F9FC8 /* HistoryView.swift in Sources */,
 				2954C59F25BCC045007AE923 /* MeetingTimerView.swift in Sources */,
 				295EA0C725BB6A9D00CD3753 /* ScrumData.swift in Sources */,
 				29FB525125A3BBB40040F47A /* DailyScrum.swift in Sources */,
